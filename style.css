@@ -1,0 +1,415 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: helvetica, arial, sans-serif;
+  color: #555555;
+  font-size: 0.8em;
+}
+
+.topoPag {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  border-bottom: 1px solid #555555;
+}
+
+.topoPagContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  max-width: 1140px;
+  width: 100%;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 40px;
+  border: 1px solid #555555;
+}
+
+.icone {
+  width: 22px;
+  height: 22px;
+}
+
+.topoPagEsq {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+
+.topoPagDir {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+
+.navBar {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  border-bottom: 1px solid #555555;
+  position: sticky;
+  top: 0px;
+  background-color: #ffffff;
+}
+
+.imgLogoCedup {
+  max-height: 60px;
+}
+
+.navBarDir {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+
+.menu {
+  padding: 0 18px;
+  font-weight: 600;
+}
+
+.menuButton {
+  display: none;
+  padding: 0 18px;
+  cursor: pointer;
+}
+
+.btnMenu {
+  width: 24px;
+  height: 18px;
+}
+
+.cursoInfo {
+  width: 100%;
+  position: relative;
+  color: #ffffff;
+  z-index: -2;
+}
+
+.cursoInfo img {
+  width: 100%;
+}
+
+.cursoInfo .cursoInfoDesc {
+  position: absolute;
+  top: 35%;
+  left: 25%;
+  max-width: 20%;
+  font-size: 1.7em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.cursoDeta {
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+  padding: 10px 0;
+  width: 150px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+.cursoDeta:hover {
+  background-color: #ffffff;
+  color: #555555;
+}
+
+.obsBar {
+  width: 100%;
+  padding: 4em 0;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+}
+
+.itens {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.itensImg {
+  border: 2px solid #aaaaaa;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+}
+
+.itemImg {
+  width: 50px;
+}
+
+.itens .title {
+  font-size: 1.5em;
+  margin: 0.8em 0;
+  color: #333333;
+}
+
+.itens .content {
+  text-align: center;
+}
+
+.nossosCursos {
+  width: 100%;
+  padding: 1em 0;
+}
+
+.nossosCursosTitle {
+  text-align: center;
+  font-size: 1.3em;
+}
+
+.nossosCursosDeta {
+  text-align: center;
+  cursor: pointer;
+  padding: 2px 0;
+  color: #2e84a7;
+}
+
+.midBar {
+  padding: 3.5em 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cursosContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.cursosContent img {
+  max-width: 100%;
+}
+
+.cursosContent .title {
+  font-size: 1.5em;
+  margin: 0.8em 0;
+  color: #444444;
+  font-weight: 600;
+}
+
+.cursosContent .content {
+  text-align: start;
+  font-size: 1.2em;
+  padding: 2px 15px 25px 25px;
+}
+
+.missBarTop {
+  width: 100%;
+  padding: 1em 0;
+}
+
+.missBar {
+  width: 100%;
+  padding: 0 0 3em;
+  background-color: #f5f5f5;
+  width: 100%;
+}
+
+.missBarTit {
+  text-align: center;
+  font-size: 1.3em;
+}
+
+.missBarSubTit {
+  text-align: center;
+  padding: 0 0 1em;
+}
+
+.missBarMid {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.missBarContent {
+  display: flex;
+  flex-direction: column;
+  max-width: 30%;
+  font-size: 1.1em;
+  padding-left: 25em;
+}
+
+.missBarMid {
+  display: flex;
+  flex-direction: column;
+}
+
+.missBarContent .vagasTit {
+  font-size: 1.3em;
+  padding: 1em 0 1.1em;
+  font-weight: 600;
+}
+
+.missBarContent .vagasDisp {
+  display: flex;
+  cursor: pointer;
+  margin-top: 1.8em;
+  padding: 10px;
+  font-size: 16px;
+  color: #007bff;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  text-align: center;
+  width: 160px;
+}
+
+.vagasDisp:hover {
+  background-color: #ffffff;
+  color: #555555;
+}
+
+.botoes {
+  border: 2px solid #aaaaaa;
+  color: #333333;
+  border-radius: 10px;
+  font-weight: 600;
+  margin-bottom: 7px;
+  font-size: 14px;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+}
+
+.missBarMVV {
+  width: 40%;
+  color: #444;
+  padding: 10px 60em;
+  text-align: left;
+  border-radius: 5px;
+  margin: 5px 0;
+  margin-top: -14em;
+}
+
+.rodapeBar {
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.rodapeMenu {
+  width: 220px;
+  padding: 1em 15em;
+  font-size: 14px;
+}
+
+.rodapeMenu li {
+  margin-bottom: 15px;
+}
+
+.rodapeMenu a {
+  color: #ffffff;
+}
+
+.rodapeMenu a:hover {
+  text-decoration: underline;
+}
+
+.cedup {
+  padding: 10px 18em;
+  bottom: 0;
+  width: 100%;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  position: relative;
+  top: -100px;
+}
+
+.txt2019 {
+  padding: 1px 25.5em;
+  bottom: 0;
+  width: 100%;
+  font-size: 14px;
+  color: #555555;
+  font-weight: 600;
+  position: relative;
+  top:-127px;
+}
+
+.rodapeSobre {
+  display: flex;
+  align-items: center;
+  padding: 0 50em;
+  width: 25%;
+  position: relative;
+  top: -150px;
+}
+
+.rodapeSobreNos {
+  padding: 20px;
+  margin: 10px;
+  font-size: 1.8em;
+  color: #ffffff;
+}
+
+.rodapecontent {
+  color: #222222;
+  align-items: center;
+}
+
+.rodapeVeja {
+  padding: 10px;
+  color: #ffffff;
+}
+
+@media (max-width: 1260px) {
+  .topoPagContent {
+    max-width: 940px;
+  }
+
+  .cursoInfo .cursoInfoDesc H1 {
+    font-size: 1.8em;
+  }
+}
+
+@media (max-width: 980px) {
+  .topoPagContent {
+    flex-direction: column;
+  }
+
+  .cursoInfo .cursoInfoDesc H1 {
+    font-size: 1.3em;
+  }
+
+  .alinhar-top {
+    align-items: center;
+  }
+
+  .alinharMidBar {
+    align-items: center;
+  }
+
+  .alinharMissBar {
+    align-items: center;
+  }
+
+  .missBarMid{
+    align-items: center;
+  }
+
+  .alinharRodapeBar{
+    align-items: center;
+  }
+}
